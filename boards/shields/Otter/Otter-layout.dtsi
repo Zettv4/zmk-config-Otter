@@ -8,13 +8,8 @@
         kscan = <&kscan0>;
         trnasform = <&default_transform>;
 
-        keys //#include <physical_layouts.dtsi>
-
-/ {
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default";
-
+        keys 
+        
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
 
