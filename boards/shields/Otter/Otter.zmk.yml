@@ -4,9 +4,8 @@ name: otter
 siblings:
   - otter_left
   - otter_right
-
 type: shield
-url: https://github.com/Zettv4/Otter
+url: https://github.com/Zettv4/zmk-config-Otter
 requires:
   - pro_micro
 features:
