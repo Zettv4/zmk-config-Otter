@@ -10,4 +10,4 @@ requires:
   - pro_micro
 features:
   - keys
-  - studio 
+  - studio  

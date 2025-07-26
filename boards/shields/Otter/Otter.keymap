@@ -7,10 +7,11 @@
         compatible = "zmk,keymap";
 
         zero { 
+             display-name = "colemak ~ personalized";
             bindings = <
-                &kp Q      &kp W      &kp F      &kp P      &kp G        &kp J      &kp L      &kp U      &kp Y      &kp DOT
-                &kp A      &kp S      &kp R      &kp T      &kp D        &kp H      &ht LEFT_SHIFT N  &ht RCTRL I    &ht RALT E &kp O
-                &kp Z      &kp X      &kp C      &kp V      &kp B        &kp K      &kp M      &kp BACKSPACE     &ht LEFT_WIN DELETE &ht SLASH COMMA
+                &kp Q      &kp W      &kp F      &kp P      &kp G        &kp J      &kp L      &kp U          &kp Y      &kp DOT
+                &kp A      &kp S      &kp R      &kp T      &kp D        &kp H      &kp N      &kp I          &kp E      &kp O
+                &kp Z      &kp X      &kp C      &kp V      &kp B        &kp K      &kp M      &kp BACKSPACE  &kp DELETE &kp COMMA
                                                  &mo 1      &kp SPACE    &kp ENTER  &mo 2
             >;
         };
