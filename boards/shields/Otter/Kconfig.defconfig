@@ -1,0 +1,23 @@
+config ZMK_PM_SOFT_OFF
+	default y
+config ZMK_POINTING
+	default y
+
+
+if SHIELD_OTTER_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "otter"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_OTTER_LEFT || SHIELD_OTTER_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,0 +1,13 @@
+file_format: "1"
+id: otter
+siblings:
+  - otter_left
+  - otter_right
+name: otter
+type: shield
+url: https://github.com/Zettv4/Otter
+requires:
+  - pro_micro
+features:
+  - keys
+  - studio 
