@@ -4,6 +4,7 @@ name: otter
 siblings:
   - otter_left
   - otter_right
+  - otter_dongle
 type: shield
 url: https://github.com/Zettv4/zmk-config-Otter
 requires:
