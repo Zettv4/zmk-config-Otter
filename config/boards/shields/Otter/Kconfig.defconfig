@@ -15,9 +15,12 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_OTTER_LEFT || SHIELD_OTTER_RIGHT
+if SHIELD_OTTER_LEFT || SHIELD_OTTER_RIGHT || SHIELD_OTTER_DONGLE
 
 config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
     default y
 
 endif
