@@ -1,5 +1,7 @@
 #include "Otter.dtsi"
 
+
+
 &default_transform {
-    col-offset = <11>;
+    col-offset = <6>;
 };
