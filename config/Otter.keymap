@@ -184,7 +184,7 @@
             bindings = <
 &none         &kp F1  &kp F2   &kp F3   &kp F4     &ht TILDE GRAVE        &ht UNDER MINUS     &ht EQUAL PLUS               &none                          &tog 3
 &kp LEFT_ALT  &kp F5  &kp F6   &kp F7   &kp F8     &ht DOUBLE_QUOTES SQT  &ht SEMI COLON      &ht LEFT_BRACE LEFT_BRACKET  &ht RIGHT_BRACE RIGHT_BRACKET  &kp PRINTSCREEN
-&none         &kp F9  &kp F10  &kp F11  &kp F12    &ht PIPE BACKSLASH     &ht QUESTION SLASH  &kp LESS_THAN                &kp GREATER_THAN               &none
+&none         &kp F9  &kp F10  &kp F11  &kp F12    &ht PIPE BACKSLASH     &ht QUESTION SLASH  &kp LESS_THAN                &kp GREATER_THAN               &kp QUESTION
                                &none    &trans     &kp ENTER              &trans
             >;
         };
@@ -192,7 +192,7 @@
         General_gaming {  
             display-name = "General_gaming";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3      &kp N4       &none      &none                 &none     &tog 4     &tog 0
+&kp ESC    &kp N1  &kp N2  &kp N3      &kp N4       &none      &none                 &none     &tog 0     &tog 4
 &kp TAB    &kp Q   &kp W   &kp E       &kp R        &none      &kp NON_US_BACKSLASH  &kp UP    &none      &none
 &kp LSHFT  &kp A   &kp S   &kp D       &kp F        &none      &kp LEFT              &kp DOWN  &kp RIGHT  &none
                            &ht LALT C  &kp SPACE    &kp LCTRL  &none
