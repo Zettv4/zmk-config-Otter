@@ -101,19 +101,19 @@
             layers = <0>;
         };
 
-        C-item {
+        C_item {
             bindings = <&kp C>;
             key-positions = <22 21>;
             layers = <4>;
         };
 
-        T-item {
+        T_item {
             bindings = <&kp T>;
             key-positions = <23 22>;
             layers = <4>;
         };
 
-        B-recall {
+        B_recall {
             bindings = <&kp B>;
             key-positions = <1 2>;
             layers = <4>;
