@@ -3,3 +3,12 @@
 &default_transform {
     col-offset = <6>;
 };
+
+&kscan0 {
+	row-gpios
+            = <&pro_micro 02 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 03 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 04 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pro_micro 05 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+};

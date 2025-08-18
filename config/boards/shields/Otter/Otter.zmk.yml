@@ -1,10 +1,10 @@
 file_format: "1"
-id: otter
-name: otter
+id: Otter
+name: Otter
 siblings:
-  - otter_left
-  - otter_right
-  - otter_dongle
+  - Otter_left
+  - Otter_right
+  - Otter_dongle
 type: shield
 url: https://github.com/Zettv4/zmk-config-Otter
 requires:
