@@ -16,14 +16,14 @@
 
   # --- Otter Dongle build ---
   - board: nice_nano_v2
-    shield: otter_dongle
+    shield: Otter_dongle
 
   # --- Otter left as peripheral ---
   - board: nice_nano_v2
-    shield: otter_left
+    shield: Otter_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
 
   # --- Otter right as peripheral ---
   - board: nice_nano_v2
-    shield: otter_right
+    shield: Otter_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
