@@ -1,5 +1,5 @@
-include <dt-bindings/zmk/matrix_transform.h>
-include "Otter-layouts.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
+#include "Otter-layouts.dtsi"
 / {
     chosen {
         zmk,kscan = &kscan0;
