@@ -1,8 +1,8 @@
 #include <physical_layouts.dtsi>
 
  / {
-     physical_layout0: physical_layout_0 {
-         compatible = "zmk,physical-layout";
+     matrix_transform0: keymap_transform0 {
+         compatible = "zmk,matrix_transform";
          display-name = "Otter";    
          kscan = <&kscan0>;
          transform = <&matrix_transform0>;
